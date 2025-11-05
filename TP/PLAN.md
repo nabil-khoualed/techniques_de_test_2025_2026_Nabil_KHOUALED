@@ -27,13 +27,15 @@ Pour un Triangles :
 
 Pour concevoir les tests, plusieurs ensembles de points seront utilisés :
 
-| Cas               | Description             | Résultat attendu                  |
-| Aucun point       | Ensemble vide           | Pas d’erreur, 0 triangle          |
-| 3 points          | Triangle simple         | 1 triangle formé                  |
-| 4 points          | Carré                   | 2 triangles couvrant la surface   |
-| Points doublés    | Deux points identiques  | Erreur ou message clair           |
-| Points alignés    | Tous sur la même ligne  | Aucun triangle formé              |
-| Données invalides | Format binaire corrompu | Erreur de format gérée proprement |
+| Cas              | Description             | Résultat attendu                              |
+|------------------|--------------------------|-----------------------------------------------|
+| Aucun point      | Ensemble vide            | Pas d’erreur, 0 triangle                      |
+| 3 points         | Triangle simple          | 1 triangle formé                              |
+| 4 points         | Carré                    | 2 triangles couvrant la surface               |
+| Points doublés   | Deux points identiques   | Erreur ou message clair                       |
+| Points alignés   | Tous sur la même ligne   | Aucun triangle formé                          |
+| Données invalides| Format binaire corrompu  | Erreur de format gérée proprement             |
+
 
 4. Types de tests
 a) Tests unitaires
