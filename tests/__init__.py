@@ -1,1 +1,1 @@
-# Package initialisation for tests. (empty on purpose)
+"""Suite de tests du projet (unitaires, intégration, performance)."""

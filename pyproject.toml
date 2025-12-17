@@ -8,3 +8,27 @@ select = [
     "SIM",
     "I",
 ]
+
+
+[project]
+name = "triangulator"
+version = "0.1.0"
+description = "Micro-service de triangulation (TP Techniques de Test)"
+requires-python = ">=3.12"
+dependencies = [
+    "flask==3.1.2",
+    "requests>=2.31",
+]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["triangulator"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+markers = [
+    "perf: tests de performance (smoke), non destinés à du benchmarking précis",
+]

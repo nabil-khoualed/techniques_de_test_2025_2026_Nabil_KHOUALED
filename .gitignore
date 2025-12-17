@@ -1,0 +1,28 @@
+# Environnements Python
+.venv/
+venv/
+ENV/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Artefacts de build Python
+build/
+dist/
+*.egg-info/
+
+# Docs générées
+html/
+
+# Divers
+.DS_Store
